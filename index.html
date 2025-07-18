@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>segundo projeto de RA usando o marcador hiro e mostrando uma imagem</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
+  </head>
+  <body style="margin: 0; overflow: hidden;">
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
+      <a-marker preet="hiro">
+       <a-image src="nomedaimage.extensao"></a-image>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+    
+  </body>
+</html>
+
+
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
     <title>primeiro projeto de RA usando o marcador hiro e mostrando um cubo</title>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
@@ -15,3 +35,4 @@
     
   </body>
 </html>
+-->
