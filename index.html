@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>final projeto de RA usando o marcador hiro e mostrando um diabo</title>
-    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.min.js"></script>
-  </head>
-  <body style="margin: 0; overflow: hidden;">
+<body style="margin: 0; overflow: hidden;">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
       <a-marker preet="hiro">
-        <a-box position="0 0.5 0" material="diabin.png"></a-box>
+       <a-image src="diabin.png"></a-image>
+       <a-image src="diabin.png" rotation="-90 0 0"></a-image>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
-    
-  </body>
-</html>
 
 
 <!--
